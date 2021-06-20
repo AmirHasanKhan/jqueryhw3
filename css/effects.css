@@ -1,0 +1,71 @@
+ .nav-menu {
+    display: flex;
+    color: #75ff0d;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-image: linear-gradient( 176deg, #2a0ff1, #7ddc8a00);
+    border-radius: 29%;
+    border-style: solid;
+    transition: 0.3s;
+    text-decoration: none!important;
+}
+.nav-menu:hover {
+    color: #1d62c7;
+    background-image: linear-gradient( 319deg, #b4b0d6, #13ad2800);
+}
+nav {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ .toggler{
+    display:  flex; 
+    justify-content: center;
+ }
+
+.toggler { 
+    width: 500px; 
+    height: 200px; 
+    position: relative; 
+}
+#button { 
+    padding: .5em 1em; 
+    text-decoration: none; 
+}
+#effect { 
+    width: 240px; 
+    height: 170px; 
+    padding: 0.4em; 
+    position: relative; 
+    background: #fff; 
+}
+#effect h3 { 
+    margin: 0; 
+    padding: 0.4em; 
+    text-align: center; 
+}
+.counter-grp{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.counter-grp h2{
+    text-align: center;
+    color: tomato;
+}
+
+.box{
+    min-height: 350px;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+   background-color: blue; 
+}

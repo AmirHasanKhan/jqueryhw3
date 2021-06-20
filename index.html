@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/all.css">
+
+    <title>JQuery HW1 by Amir Hasan Khan</title>
+</head>
+  <nav>
+    <a href="effects.html" target="_blank"><button class="nav-menu">Effects</button></a>
+    <a class="fadeIn" target="_blank" href="parallax.html"><button class="nav-menu">Parallax</button></a>
+  </nav>
+  <nav>
+    <div class="message-box">
+      <h1>Click here to see the alert messages</h1>
+        <div class="btn-grp">
+          <button type="button" class="bt btn-1">Click ME!</button>
+          <button type="button" class="bt dbl-clk">Double Click ME!</button>
+          <button type="button" class="bt ms-ent">Mouse enter ME!</button>
+          <button type="button" class="bt ms-out">Mouse Out ME!</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="show-hide">
+    <button class="bt hide">Hide button</button>
+    <button class="bt show">Show button</button>
+    <button class="bt hide-show" id="hide-show">hide/show</button>
+    <button class="bt fade-hide">fade hide</button>
+    <button class="bt fade-show">fade show</button>
+    <button class="bt fade-toggle">fade toggle</button>
+    <button class="bt fade-to">fade to</button>
+    <button class="bt slide-toggle" id="slide-toggle">Slide toggle</button>
+
+
+  </div>
+  <h1 class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nemo accusantium commodi tempore voluptas atque est debsitis architecto praesentium exercitationem.</h1>
+  <h2 class="message-2">Hello there my name is Amir Hasan Khan. I am from Shikhbe shobai</h2>
+
+<!-- draggable start -->
+
+  <div class="container draggable">
+    <div class="row">
+      <div id="dragg" class="ui-widget-content dragg">
+        <p>my scroll speed and sensitivity is 100</p>
+      </div>
+      <div id="dragg1" class="ui-widget-content dragg dragg1">
+        <p>I am draggable vertically</p>
+      </div>
+      <div id="dragg2" class="ui-widget-content dragg dragg2">
+        <p>I am draggable Horizontally</p>
+      </div>
+      <div id="dragg3" class="ui-widget-content dragg dragg3">
+        <p>I am Revertable</p>
+      </div>
+      <ul>
+        <li id="sort_draggable" class="ui-state-highlight">Drag me down</li>
+      </ul>
+       
+      <ul id="sortable">
+        <li class="ui-state-default">Item 1</li>
+        <li class="ui-state-default">Item 2</li>
+        <li class="ui-state-default">Item 3</li>
+        <li class="ui-state-default">Item 4</li>
+        <li class="ui-state-default">Item 5</li>
+      </ul>
+    </div>
+  </div> 
+<!-- draggable end -->
+<!-- sortable start -->
+<div class="container">
+  <div class="row">
+    <ul id="sort_table1" class="droptrue">
+      <li class="ui-state-default"><img src="images/baby1.jpg" alt="index.html"></li>
+      <li class="ui-state-default"><img src="images/baby2.jpg" alt="index.html"></li>
+      <li class="ui-state-default"><img src="images/baby3.jpg" alt="index.html"></li>
+      <li class="ui-state-default"><img src="images/baby4.jpg" alt="index.html"></li>
+    </ul>
+ 
+    <ul id="trashcan" class="droptrue">
+      <h3>This is trashcan</h3>
+    </ul>
+ 
+    <br style="clear:both">
+  </div>
+</div>
+<!-- sortable end -->
+
+  <div class="container">
+      <div class="ui-widget autocomplete">
+        <form>
+          <label for="tags">Where did you learn web development </label>
+          <input id="data">
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+
+
+  </div>
+
+  <div class="container">
+    <div id="accordion" class="accordion">
+      <!-- single -->
+      <h3>Section 1</h3>
+      <div>
+        <p>
+        Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+        ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+        amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+        odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+        </p>
+      </div>
+      <!-- single -->
+      <!-- single -->
+      <h3>Section 2</h3>
+      <div>
+        <p>
+        Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+        purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+        velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+        suscipit faucibus urna.
+        </p>
+      </div>
+      <!-- single -->
+      <h3>Section 3</h3>
+      <div>
+        <p>
+        Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+        purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+        velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+        suscipit faucibus urna.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="date">
+      <p>Date: <input type="text" id="datepicker"></p>
+    </div>
+  </div>
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

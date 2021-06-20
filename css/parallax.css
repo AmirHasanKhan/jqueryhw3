@@ -1,0 +1,47 @@
+ .nav-menu {
+    display: flex;
+    color: #75ff0d;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-image: linear-gradient( 176deg, #2a0ff1, #7ddc8a00);
+    border-radius: 29%;
+    border-style: solid;
+    transition: 0.3s;
+    text-decoration: none!important;
+}
+.nav-menu:hover {
+    color: #1d62c7;
+    background-image: linear-gradient( 319deg, #b4b0d6, #13ad2800);
+}
+nav {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+.box{
+    min-height: 350px;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+
+.slick-img{
+    padding: 0px 20px;
+    height: 150px;
+}
+.slick-img img{
+    width: 100%;
+}
+button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
+    cursor: pointer;
+    background-color: rebeccapurple;
+}

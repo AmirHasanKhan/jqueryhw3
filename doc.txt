@@ -1,0 +1,9 @@
+black: #;
+lite blue: #313841;
+ash: #898989;
+yello: ;
+
+
+<i class="fab fa-twitter"></i>
+<i class="fab fa-google-plus-g"></i>
+<i class="fab fa-pinterest"></i>
